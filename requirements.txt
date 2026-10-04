@@ -1,0 +1,19 @@
+# --- Web framework / server ---
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+python-multipart==0.0.32      # required by FastAPI for UploadFile
+
+# --- Config ---
+pydantic==2.13.5
+pydantic-settings==2.15.0
+python-dotenv==1.2.3
+
+# --- Database (SQLite metadata) ---
+sqlmodel==0.0.47
+
+# --- S3-compatible object storage ---
+boto3==1.43.108
+
+# --- Testing (optional; remove for a slimmer image) ---
+# pytest
+# httpx
